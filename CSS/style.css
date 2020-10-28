@@ -1,8 +1,35 @@
 *{
 	margin:0;
 	padding: 0;
+	font-family: sans-serif;
+}
+#navbarul{
+list-style-type: none;
+overflow: hidden;
+background-color: gray;
+position: sticky;
+top: 0;
 }
 
-#box-1{
-	background-color:green;
+#navbarlist{
+float: left;
+display: inline;
+}
+
+#navbarbutton{
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	color: #111;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+#navbarbutton:hover{
+background-color: #333;
+}
+
+.active{
+  background-color: #DC143C;
+  border-radius: 5px;
 }
