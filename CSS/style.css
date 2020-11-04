@@ -33,3 +33,13 @@ background-color: #333;
   background-color: #DC143C;
   border-radius: 5px;
 }
+
+.downloadbutton {
+  background-color: #DC143C;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+}
